@@ -61,7 +61,7 @@ def truncate_text(text, max_length=1024):
 def create_embed(title, description="", color=0x1a1a1a):
     """Create a dark-themed embed with proper field length handling and UnixNodes branding"""
     embed = discord.Embed(
-        title=truncate_text(f"⭐ torahosting - {title}", 256),
+        title=truncate_text(f"⭐ KexsonHost - {title}", 256),
         description=truncate_text(description, 4096),
         color=color
     )
